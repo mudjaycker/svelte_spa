@@ -1,7 +1,8 @@
 <script lang="ts">
+  export let bgcolor = ""
 </script>
 
-<div>
+<div style="background-color: {bgcolor};">
   <slot />
 </div>
 

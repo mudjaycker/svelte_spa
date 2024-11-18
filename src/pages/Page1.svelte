@@ -15,7 +15,7 @@
   });
 </script>
 
-<Centralise>
+<Centralise bgcolor="rgb(225, 227, 111)">
   <div>
     <h1>Current Time: {todayTime}</h1>
     <h2>Current Date: {new Date().toLocaleDateString()}</h2>
@@ -25,11 +25,11 @@
 
 <style lang="scss">
   h1 {
-    color: red;
+    color: rgb(189, 79, 79);
   }
 
   h2 {
-    color: blue;
+    color: rgb(35, 35, 107);
   }
 
   div {

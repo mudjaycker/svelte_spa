@@ -12,7 +12,7 @@
   ];
 </script>
 
-<Centralise>
+<Centralise bgcolor="#b0cbbe">
   <div>
     <h1>Home Page</h1>
     <h2>To day is {weekDays[today]}</h2>
@@ -21,7 +21,7 @@
 </Centralise>
 
 <style lang="scss">
-  $red_color: #e53232;
+  $red_color: #073820;
   h1 {
     color: $red_color;
     text-transform: capitalize;
